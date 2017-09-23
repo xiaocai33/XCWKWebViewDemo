@@ -15,6 +15,7 @@
 		903E175C1F70B4EB0018A7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903E175A1F70B4EB0018A7E1 /* LaunchScreen.storyboard */; };
 		903E17671F70B4EB0018A7E1 /* XCWKWebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E17661F70B4EB0018A7E1 /* XCWKWebViewDemoTests.m */; };
 		903E17721F70B4EB0018A7E1 /* XCWKWebViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E17711F70B4EB0018A7E1 /* XCWKWebViewDemoUITests.m */; };
+		903E17801F70B77A0018A7E1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 903E177F1F70B77A0018A7E1 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		903E176D1F70B4EB0018A7E1 /* XCWKWebViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCWKWebViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903E17711F70B4EB0018A7E1 /* XCWKWebViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCWKWebViewDemoUITests.m; sourceTree = "<group>"; };
 		903E17731F70B4EB0018A7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903E177F1F70B77A0018A7E1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				903E17581F70B4EB0018A7E1 /* Assets.xcassets */,
 				903E175A1F70B4EB0018A7E1 /* LaunchScreen.storyboard */,
 				903E175D1F70B4EB0018A7E1 /* Info.plist */,
+				903E177F1F70B77A0018A7E1 /* index.html */,
 				903E174C1F70B4EB0018A7E1 /* Supporting Files */,
 			);
 			path = XCWKWebViewDemo;
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903E175C1F70B4EB0018A7E1 /* LaunchScreen.storyboard in Resources */,
+				903E17801F70B77A0018A7E1 /* index.html in Resources */,
 				903E17591F70B4EB0018A7E1 /* Assets.xcassets in Resources */,
 				903E17571F70B4EB0018A7E1 /* Main.storyboard in Resources */,
 			);
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XCWKWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaocai.XCWKWebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XCWKWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaocai.XCWKWebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +515,7 @@
 				903E17781F70B4EB0018A7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		903E17791F70B4EB0018A7E1 /* Build configuration list for PBXNativeTarget "XCWKWebViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				903E177B1F70B4EB0018A7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		903E177C1F70B4EB0018A7E1 /* Build configuration list for PBXNativeTarget "XCWKWebViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				903E177E1F70B4EB0018A7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
