@@ -23,6 +23,7 @@
     // 视图即将消失的时候, 移除 防止循环引用
     [_webView.configuration.userContentController removeAllUserScripts];
     // self-->webView-->configuration-->userContentControll-->self 循环引用
+    NSLog(@"hello");
 }
 
 - (void)viewDidLoad {
